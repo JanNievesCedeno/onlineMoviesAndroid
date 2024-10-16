@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieProject</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_movieList">Movies</string>
+    <string name="menu_mylibrary">My Library</string>
+    <string name="menu_account">Account</string>
+    <string name="action_search">Search</string>
+    <string name="action_Logout">Log Out</string>
+
+    <string name="menu_tableUser">Table User</string>
+    <string name="menu_tableMovies">Table Movies</string>
+    <string name="menu_tableSales">Table Sales</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

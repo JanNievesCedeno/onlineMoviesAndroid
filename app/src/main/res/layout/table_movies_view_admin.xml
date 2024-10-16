@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Id:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="0125" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Amount:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Juan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Name:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Martinez" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Year:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="jmartinez" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Genre:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Jry8d0EXviTXTH3Hraj8Bg==" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movies Description:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Cost:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="$25.69" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Picture:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMoviePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="$25.69" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Trailer:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dataMovieTrailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="$25.69" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageFlecha"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignTop="@+id/linearLayout"
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

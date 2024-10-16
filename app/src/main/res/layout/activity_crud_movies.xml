@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".CrudMovies">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Id:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Amount:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Name:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Year:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Genre:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Description:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Cost:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Picture:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMoviePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Trailer:"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/crudMovieTrailer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/crudMoviesDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:text="Delete Movie"
+                android:onClick="onClick"
+                />
+
+            <Button
+                android:id="@+id/crudMoviesUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update Movie"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

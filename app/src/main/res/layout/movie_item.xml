@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@color/backgroundRecycler"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/itemMovieImage"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:scaleType="centerInside"
+
+            />
+
+        <TextView
+            android:id="@+id/itemMovieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Spider Man"
+            android:textAlignment="center"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/itemMovieYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="2000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/itemMovieGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Action"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/itemMovieCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="4.99"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

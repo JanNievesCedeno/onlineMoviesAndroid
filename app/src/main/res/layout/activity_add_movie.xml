@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".addMovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Amount:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Name:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Year:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Genre:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Description:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Cost:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Picture:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMoviePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Trailer:"
+                    android:textAlignment="center"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/addMovieTrailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/addMovieBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Back" />
+
+                <Button
+                    android:id="@+id/addMovieAddMovie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Add Movie" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
